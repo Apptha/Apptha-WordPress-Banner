@@ -1,0 +1,22 @@
+
+   #featured {
+            border: 1px solid #4D4D4C;
+            font-family:arial;
+            color:#000;
+            background:#ccc;
+            height:200px;
+            widht: 800px;
+            padding: 5px 5px 5px 5px;
+            width:800px;
+            border-bottom-left-radius: 0px  0px;
+            border-bottom-right-radius: 0px  0px;
+            border-style: solid;
+            border-top-left-radius: 0px  0px;
+            border-top-right-radius: 0px  0px;
+    }
+    .feat_ulname{
+            font-family:arial;
+            color:#685a5a;
+            height: 20px;
+            font-size: 12px;
+        }

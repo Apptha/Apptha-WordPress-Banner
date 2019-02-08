@@ -1,0 +1,85 @@
+/*
+Theme Name: Dandelion v1.0
+Description: <strong>Elegant Premium WordPress Theme &nbsp; &nbsp; &nbsp; - &nbsp; &nbsp;</strong> <a href="http://twitter.com/pexeto">Follow me on Twitter</a> to be notified about theme updates.
+Author: Pexeto
+Author URI: http://pexeto.com/
+*/ /* ----------- Restart-----------------*/
+.clear
+{
+    clear: both;
+}
+#header
+{
+    height: auto;
+}
+#left-arrow {
+	left: -48px;
+	top: 10px;
+	float: left;
+	width: 38px;
+	height: 38px;
+	display: block;
+	background-image: url(images/slider_arrow_l.png);
+	background-repeat: no-repeat;
+}
+
+#right-arrow {
+	right: 14px;
+	top: 10px;
+	width: 38px;
+	height: 38px;
+	display: block;
+	background-image: url(images/slider_arrow_r.png);
+	background-repeat: no-repeat;
+}
+
+/*-------------------------END THUMBNAIL SLIDER----------------------------*/
+	/*-------------------------NIVO SLIDER----------------------------*/
+	
+
+
+.nivo-controlNav {
+	position: absolute;
+	bottom: -25px;
+}
+
+#nivo-controlNav-holder {
+	
+        height: 20px;
+}
+
+.nivo-controlNav a {
+	width: 20px;
+	height: 20px;
+	background-image: url(images/bullets2.png);
+	background-repeat: no-repeat;
+	float: left;
+	list-style: none;
+	margin-left: 3px;
+	margin-right: 3px;
+	display: block;
+}
+
+.nivo-controlNav a.active {
+	background-image: url(images/bullets1.png);
+}
+
+.nivo-nextNav {
+	display: block;
+	background-image: url(images/nivo_arrow_r.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 29px;
+	margin-right: 10px;
+}
+
+.nivo-prevNav {
+	display: block;
+	background-image: url(images/nivo_arrow_l.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 29px;
+	margin-left: 10px;
+}
+
+

@@ -1,0 +1,49 @@
+.jimgMenu {
+	position: relative;
+	
+	height: 200px;
+	overflow: hidden;
+	
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1340px;
+        padding: 0px;
+
+	}
+.jimgMenu ul li {float: left;position:relative;margin: 0px;}
+.jimgMenu ul li a {
+/*	text-indent: -1000px;*/
+
+	cursor:pointer;
+        text-decoration: none;
+	display:block;
+	overflow:hidden;
+	width:78px;
+	
+}
+.jimgMenu ul li a span{
+-webkit-transform: rotate(270deg);
+-moz-transform: rotate(270deg);
+-ms-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+transform: rotate(270deg);
+display: block;
+    
+    position: absolute;
+    bottom: 95px;
+left: -90px;
+width: 200px;
+
+}
+.jimgmenu ul li.landscapes_last a
+{
+    max-width: 310px;
+}
+ #header {height: auto;}
+ .clear { clear:both }
+ div.jimgMenu ul li:last-child a:hover{width:400px;}

@@ -1,0 +1,123 @@
+/**
+ * @name        Contus Banner.
+ * @version	1.0:sliderkit-demos.css 2011-06-28
+ * @since       Wordpress 3.1.3
+ * @package	contus
+ * @subpackage	contusbanner
+ * @author      saranya
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @license	GNU General Public License version 2 or later; see LICENSE.txt
+ * @abstract    Ajax Datas Getting and Retreving page.
+**/
+
+/*
+ *  PHOTOS SLIDERS
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  Photos slider > Minimal
+ *---------------------------------*/
+.photoslider-mini{width:500px;height:335px;}
+
+/* Panels buttons */
+.photoslider-mini .sliderkit-go-btn{position:absolute;top:0;z-index:10;width:50px;height:335px;}
+.photoslider-mini .sliderkit-go-prev{left:0;}
+.photoslider-mini .sliderkit-go-next{right:0;}
+.photoslider-mini .sliderkit-go-btn a{display:block;width:50px;height:335px;opacity:0.6;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}
+.photoslider-mini .sliderkit-go-prev a{background-image:url("../images/slider-arrow-left.gif");}
+.photoslider-mini .sliderkit-go-next a{background-image:url("../images/slider-arrow-right.gif");}
+.photoslider-mini .sliderkit-btn-disable a{opacity:0/*can be set to any value until 1*/;cursor:default;}
+.photoslider-mini .sliderkit-btn-disable a:hover{cursor:default;}
+.photoslider-mini .sliderkit-go-btn span{display:none;}
+
+/*---------------------------------
+ *  Photos slider > With nav bullets
+ *---------------------------------*/
+.photoslider-bullets{width:500px;height:335px;}
+
+/* Nav */
+.photoslider-bullets .sliderkit-nav{position:absolute;top:10px;right:10px;}
+.photoslider-bullets .sliderkit-nav-clip ul li{float:left;margin:0 1px 0 0;}
+.photoslider-bullets .sliderkit-nav-clip ul li a{width:13px;height:13px;background:transparent url("../images/bullet-off.png") no-repeat 0 0;}
+.photoslider-bullets .sliderkit-nav-clip ul li.sliderkit-selected a{background:transparent url("../images/bullet-on.png") no-repeat 0 0;}
+
+/*---------------------------------
+ *  Photos slider > 1 click
+ *---------------------------------*/
+.photoslider-1click{width:500px;height:335px;}
+
+/* Nav */
+.photoslider-1click .sliderkit-nav{position:absolute;bottom:10px;right:10px;}
+.photoslider-1click .sliderkit-nav-clip ul li{float:left;margin:0 1px 0 0;}
+.photoslider-1click .sliderkit-nav-clip ul li a{display:block;padding:2px 6px;color:#fff;background:#000}
+.photoslider-1click .sliderkit-nav-clip ul li.sliderkit-selected a{color:#000;background:#fff;}
+.photoslider-1click .sliderkit-nav-clip ul a:hover{color:#fff;background:#00668d;}
+
+/*---------------------------------
+ *  Photos slider > 1 click
+ *---------------------------------*/
+#photoslider-vertical{width:570px;height:350px;}
+
+/* Nav */
+#photoslider-vertical .sliderkit-nav{left:10px;top:99px;width:150px;height:90px;}
+#photoslider-vertical .sliderkit-nav-clip{top:19px;width:150px !important;text-align:center;}
+#photoslider-vertical .sliderkit-nav-clip li{width:150px !important;text-align:center;display:block;color:#090909;font-size:1.2em;text-transform:uppercase;}
+
+/* Buttons */
+#photoslider-vertical .sliderkit-nav-btn{position:absolute;z-index:10;left:110px;width:15px;height:15px;}
+#photoslider-vertical .sliderkit-nav-prev{top:0;}
+#photoslider-vertical .sliderkit-nav-next{top:75px;}
+#photoslider-vertical .sliderkit-nav-btn a{display:block;width:15px;height:15px;cursor:pointer;background:transparent url("../images/mc-hpslider-arrows.gif") no-repeat 0 0;}
+#photoslider-vertical .sliderkit-nav-prev a{background-position:0 0;}
+#photoslider-vertical .sliderkit-nav-next a{background-position:0 -15px;}
+#photoslider-vertical .sliderkit-nav-btn span{display:none;}
+#photoslider-vertical .sliderkit-panels{margin-left:200px;}
+
+
+/*
+ *  PHOTOS GALLERIES
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  Photos gallery > Standard
+ *---------------------------------*/
+.photosgallery-std{height:335px;padding:0 0 1px;} /* padding f*/
+
+/* Navbar */
+.photosgallery-std .sliderkit-nav{left:0;bottom:0;width:98%;padding:10px;}
+.photosgallery-std .sliderkit-nav-clip ul li{float:left;margin:0;}
+.photosgallery-std .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;margin:0;padding:3px;}
+.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}
+
+/* Buttons */
+.photosgallery-std .sliderkit-btn{position:absolute;top:0;}
+.photosgallery-std .sliderkit-btn span{display:none;}
+.photosgallery-std .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Navbar buttons */
+.photosgallery-std .sliderkit-nav .sliderkit-btn a{display:block;width:15px;height:76px;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev{left:20px;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next{right:20px;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a{background-position:-89px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a{background-position:-108px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:hover,
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:-126px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:hover,
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-145px center;}
+ 
+/* Panels buttons */
+.photosgallery-std .sliderkit-go-btn{position:absolute;top:0;z-index:10;width:50px;height:335px;}
+.photosgallery-std .sliderkit-go-prev{left:0;}
+.photosgallery-std .sliderkit-go-next{right:0;}
+.photosgallery-std .sliderkit-go-btn a{display:block;width:50px;height:260px;opacity:0.6;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}
+.photosgallery-std .sliderkit-go-prev a{background-image:url("../images/slider-arrow-left.gif");}
+.photosgallery-std .sliderkit-go-next a{background-image:url("../images/slider-arrow-right.gif");}
+.photosgallery-std .sliderkit-btn-disable a{opacity:0/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-go-btn span{display:none;}
+
+/* Panel */
+.photosgallery-std .sliderkit-panel{top:0;left:0;width:100%;height:335px;}
+

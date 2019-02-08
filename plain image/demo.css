@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+	text-align:center;
+	background-color:#333;
+	margin:0;
+	padding:0;
+}
+a img {
+	border:0;	
+}	
+#container {
+	text-align:left;
+	margin:10px auto;
+	border:1px solid #999;
+	width:900px;
+	background-color:#fff;
+
+}
+#header {
+	/*dummy header styles*/
+	height:50px;
+}
+#content {
+	padding:10px;
+	font:0.8em Arial, Helvetica, sans-serif;
+}
