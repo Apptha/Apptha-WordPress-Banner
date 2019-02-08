@@ -1,0 +1,2 @@
+# Apptha-WordPress-Banner
+A professional and neatly designed banner is counted as a promotional tool or an advertising partner of your website. This banner maker offers different styles of banner that suits your website/products/services. The plugin offers five default banners named Navo Slider, Blinking Navo ,Plain Image,Smooth Slider and slider Images. With a simple click make banner that displays your services, increasing the visibility.
